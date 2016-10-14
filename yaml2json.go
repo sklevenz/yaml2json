@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	goyaml "gopkg.in/yaml.v2"
+	goyaml "github.com/go-yaml/yaml"
 )
 
 func main() {
