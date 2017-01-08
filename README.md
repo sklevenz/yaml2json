@@ -2,6 +2,8 @@ Description
 ===================
 yaml2json 
 
+This clone uses a pinned version of go-yaml library to support non-standard `>>:` yaml construct.
+
 Feature
 ====================
 * zero config.
@@ -10,6 +12,13 @@ Feature
 
 Usage
 ====================
+### build
+```
+go get github.com/sklevenz/yaml2json # get sources and install binary to GOPATH
+glide install                        # install vendor directory
+go build                             # build executable
+```
+
 ### shell
 * find the build of you platform
 * run `echo "a: 1" | yaml2json` to see result
