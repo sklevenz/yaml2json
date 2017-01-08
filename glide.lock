@@ -1,0 +1,6 @@
+hash: b8b7d93ea03d4a07a25c0d3b7825a318232966b6b14a15ddce4fecd6eea14dcb
+updated: 2017-01-08T11:19:21.121559631+01:00
+imports:
+- name: github.com/go-yaml/yaml
+  version: 81205292aba40f8868069e2f18d90043d3e724a6
+testImports: []
